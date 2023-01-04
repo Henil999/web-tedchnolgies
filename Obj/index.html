@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+           display: inline; 
+        }
+    </style>
+</head>
+<body>
+    <p>Click on below image to view information</p>
+
+    <div id="BMWobj" onclick="BMW()">
+        <img src="BMW.jpg" alt="BMW" style="width:300px;height:200px;">    
+    </div>
+    <div id="Audiobj" onclick="Audi()">
+        <img src="Audi.jpg" alt="Audi" style="width:300px;height:200px;">  
+    </div>
+    <div id="Benzobj" onclick="Benz()">
+        <img src="Benz.jpg" alt="Benz" style="width:300px;height:200px;">  
+    </div>
+    <table id="table_Data">
+        <tr>
+            <th>Model</th>
+            <th>Price</th>
+            <th>Color</th>
+        </tr>
+        <tr>
+            <td id="model"></td>
+            <td id="price"></td>
+            <td id="color"></td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
