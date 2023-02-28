@@ -20,7 +20,6 @@ let Benzobj={
     year:2022,
 }
 function BMW(BMWobj){
-    console.log(this.BMWobj)
 }
 
 function Audi(){
