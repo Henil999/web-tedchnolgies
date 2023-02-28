@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Spoural Event</title> 
+    <style>        
+    body {
+            font-family: Arial, sans-serif;           
+            background-color: #f2f2f2; 
+        }         
+    form {           
+            width: 60%;           
+            margin: 0 auto;           
+            background-color: #fff;           
+            padding: 20px;           
+            border-radius: 10px;           
+            box-shadow: 0px 0px 10px 0px #ccc; 
+        }         
+    label {           
+            font-weight: bold;           
+            display: block;           
+            margin-bottom: 10px; 
+        }         
+    input[type="text"],input[type="email"],input[type="number"] {          
+            width: 100%;           
+            padding: 12px 20px;           
+            margin: 8px 0;           
+            box-sizing: border-box;           
+            border: 1px solid #ccc;           
+            border-radius: 4px; 
+        } 
+    input[type="submit"] {          
+            width: 100%;           
+            background-color: #1a8cf8;           
+            color: white;           
+            padding: 14px 20px;           
+            margin: 8px 0;           
+            border: none;           
+            border-radius: 4px; 
+            cursor: pointer; 
+        }         
+    input[type="submit"]:hover {           
+        background-color: #33259c; 
+        } 
+    </style> 
+  </head> 
+  <body> 
+    <h2>Register for the event</h2> 
+    <form> 
+      <div> 
+        <label for="name">Name:</label> 
+        <input type="text" id="name" name="name" /> 
+      </div> 
+      <div> 
+        <label for="email">Email:</label> 
+        <input type="email" id="email" name="email" /> 
+      </div> 
+      <div> 
+        <label for="phone">Phone:</label> 
+        <input type="number" id="phone" name="phone" /> 
+      </div> 
+      <div> 
+        <label for="college">College:</label> 
+        <input type="text" id="college" name="college" /> 
+      </div> 
+      <div> 
+        <label for="year">Year:</label> 
+        <input type="number" id="year" name="year" /> 
+      </div> 
+      <div> 
+        <label for="branch">Branch:</label> 
+        <input type="text" id="branch" name="branch" /> 
+      </div> 
+ 
+      <input type="submit" value="Submit" class="submit" onclick="display()" /> 
+    </form> 
+ 
+    <script src="spoural.js"></script> 
+  </body> 
+</html> 
